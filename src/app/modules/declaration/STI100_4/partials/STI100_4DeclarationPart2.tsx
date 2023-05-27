@@ -7,7 +7,7 @@ import InputProp from '../../components/InputProp';
 
 interface FormProps {
   initialFormData: STI100_4Declaration;
-  onSubmit: (formData: STI100_4Declaration) => {};
+  onSubmit: (formData: STI100_4Declaration) => void;
 }
 
 const STI100_4DeclarationPart2: React.FC<FormProps> = ({ initialFormData, onSubmit }) => {

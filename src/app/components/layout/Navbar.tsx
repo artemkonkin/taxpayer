@@ -22,6 +22,10 @@ const Navbar: React.FC<NavbarProps> = ({ }) => {
                             <span>🔥</span>
                             Отчеты
                         </Link>
+                        <Link href="/modules/user/" className='flex'>
+                            <span>🔥</span>
+                            Авторизация
+                        </Link>
                     </li>
                 </ul>
                 <ul className='flex flex-col space-y-2'>
